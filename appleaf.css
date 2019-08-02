@@ -1,0 +1,90 @@
+
+#footpage {
+    position: fixed;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.sens {
+    color: #f8ca09 !important;
+}
+
+
+
+#banner {
+    margin-bottom: 0;
+    background-color: #a9a370;
+}
+
+.bannerpicture{
+}
+.logo-avignon {
+    align-content: center;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.MultiCarousel {
+    float: left;
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.MultiCarousel .MultiCarousel-inner {
+    transition: 1s ease all;
+    float: left;
+}
+
+.MultiCarousel .MultiCarousel-inner .item {
+    float: left;
+}
+
+.MultiCarousel .MultiCarousel-inner .item > div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background: #f1f1f1;
+    color: #666;
+}
+
+.MultiCarousel .leftLst,
+.MultiCarousel .rightLst {
+    position: absolute;
+    border-radius: 50%;
+    top: calc(50% - 20px);
+}
+
+.MultiCarousel .leftLst {
+    left: 0;
+}
+
+.MultiCarousel .rightLst {
+    right: 0;
+}
+
+.MultiCarousel .leftLst.over,
+.MultiCarousel .rightLst.over {
+    pointer-events: none;
+    background: #ccc;
+}
+
+#map-holder {
+    padding-bottom: 1em;
+}
+#map {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 400px; 
+  width: 100%; 
+}
+
+.img-fluid.{ 
+    max-width: 20%;
+    height: auto;
+}

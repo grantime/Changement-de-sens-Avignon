@@ -1,0 +1,30 @@
+{
+  "name": "Appleaflet",
+  "version": "1.0.0",
+  "description": "Appleaflet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Grantime/leaflet-with-control-and-routing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Grantime/leaflet-with-control-and-routing/issues"
+  },
+  "homepage": "https://gitlab.com/Grantime/leaflet-with-control-and-routing#readme",
+  "dependencies": {
+    "@mapbox/corslite": "0.0.7",
+    "@mapbox/polyline": "^1.1.0",
+    "corslite": "0.0.7",
+    "geojson-path-finder": "^1.5.2",
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.15",
+    "mapbox": "^1.0.0-beta10",
+    "polyline": "^0.2.0"
+  }
+}
