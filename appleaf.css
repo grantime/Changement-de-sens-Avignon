@@ -15,7 +15,6 @@
 
 
 #banner {
-    margin-bottom: 0;
     background-color: #a9a370;
 }
 
@@ -84,7 +83,13 @@
   width: 100%; 
 }
 
-.img-fluid.{ 
-    max-width: 20%;
-    height: auto;
+@media (max-width:629px) {
+  #optionalstuff {
+    display: none;
+  }
 }
+
+.img-fluid{
+    width: 25%;
+}
+
