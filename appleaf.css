@@ -93,3 +93,6 @@
     width: 25%;
 }
 
+path.leaflet-interactive{
+    opacity: 0.65
+}
