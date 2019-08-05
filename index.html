@@ -221,7 +221,11 @@
                 L.latLng(43.9450, 4.8057),
                 L.latLng(43.9587, 4.8292),
             ],
-           router: new L.Routing.mapbox('pk.eyJ1IjoiZGFya2tyYXlhdCIsImEiOiJjaW96cW42bmswMDE3ODBsdzBwaGRoZndhIn0.UbYOIu1DjsJt-FA-mM0Pvg'),
+           //router: new L.Routing.mapbox('pk.eyJ1IjoiZGFya2tyYXlhdCIsImEiOiJjaW96cW42bmswMDE3ODBsdzBwaGRoZndhIn0.UbYOIu1DjsJt-FA-mM0Pvg'),
+            router: new L.Routing.osrmv1({
+                 language: 'fr',
+                profile: 'car'
+             }),
            // router: new L.Routing.Graphhopper('f5053c5e-8c5b-4dd9-87a7-066ef8942e8a'),
             geocoder: L.Control.Geocoder.bing('An3jung0oyVSEcdxz4GrGoKlG2GNPkk0HNaUtq657DxqAtN2rxdAhLUZha7lTU4n'),
             geocodewhileDragging: false,

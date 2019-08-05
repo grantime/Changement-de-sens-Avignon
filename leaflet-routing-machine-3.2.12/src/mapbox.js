@@ -13,7 +13,8 @@
 		options: {
 			serviceUrl: 'https://api.mapbox.com/directions/v5',
 			profile: 'mapbox/driving',
-			useHints: false
+			useHints: false,
+            language: fr,
 		},
 
 		initialize: function(accessToken, options) {
